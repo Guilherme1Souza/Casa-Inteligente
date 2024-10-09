@@ -22,6 +22,8 @@ if (buttonLigar) {
 if (buttonSala) {
     buttonSala.addEventListener('click', () => {
         buttonSala.style.backgroundColor = 'green'; 
+        buttonCozinha.style.color = 'black';
+        buttonSala.style.color = 'white'; 
         buttonCozinha!.style.backgroundColor = '';
         buttonQuarto!.style.backgroundColor = '';
         resetarLampada();
@@ -31,6 +33,8 @@ if (buttonSala) {
 if (buttonQuarto) {
     buttonQuarto.addEventListener('click', () => {
         buttonQuarto.style.backgroundColor = 'green'; 
+        buttonSala.style.color = 'black'; 
+        buttonQuarto.style.color = 'white'; 
         buttonSala!.style.backgroundColor = '';
         buttonCozinha!.style.backgroundColor = '';
         resetarLampada();
@@ -40,6 +44,8 @@ if (buttonQuarto) {
 if (buttonCozinha) {
     buttonCozinha.addEventListener('click', () => {
         buttonCozinha.style.backgroundColor = 'green'; 
+        buttonQuarto.style.color = 'black';
+        buttonCozinha.style.color = 'white';
         buttonQuarto!.style.backgroundColor = '';
         buttonSala!.style.backgroundColor = '';
         resetarLampada();

@@ -1,10 +1,11 @@
 body {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
   margin-top: 150px;
   background-color: rgb(212, 215, 216);
 }
+
 
 #image {
   flex-direction: column;
@@ -19,4 +20,26 @@ body {
 
 button {
   cursor: pointer;
+  width: 250px;
+  margin-left: 100px;
+  border: none;
+  border-radius: 50px;
+  font-size: 24px;
+}
+
+.box-2 {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 450px;
+  height: 450px;
+}
+
+h2 {
+  padding-top: 80px;
+}
+
+.comodies {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
